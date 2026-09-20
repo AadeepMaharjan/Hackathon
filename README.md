@@ -70,11 +70,3 @@ to the backend, so no frontend API URL needs to be changed for local use.
 | POST   | `/api/lookup-urgency`      | `{ problem }` → suggested urgency (used for the live preview) |
 | POST   | `/api/patients`            | `{ name, age, phone, problem, urgencyOverride? }` → registers and allocates a patient |
 
-## Extending it
-
-- Add authentication for the "login" step (the brief called it a login
-  page; here it's the intake form — wire in a real auth layer if you need
-  staff accounts).
-- Replace the static triage table with a live medical API.
-- Add a map/geocoding call to pick the nearest hospital by real distance
-  instead of the static `nearbyHospitals` list in `db.json`.
