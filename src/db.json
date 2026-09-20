@@ -1,0 +1,215 @@
+{
+  "resources": {
+    "beds": {
+      "total": 20,
+      "available": 20
+    },
+    "icuBeds": {
+      "total": 6,
+      "available": 6
+    },
+    "operatingRooms": {
+      "total": 3,
+      "available": 3
+    },
+    "doctors": {
+      "total": 10,
+      "available": 10
+    },
+    "nurses": {
+      "total": 18,
+      "available": 18
+    },
+    "emergencyVehicles": {
+      "total": 5,
+      "available": 5
+    },
+    "opdSeats": {
+      "total": 12,
+      "available": 12
+    }
+  },
+  "patients": [
+    {
+      "id": "mu9ihtv5fveq",
+      "name": "Arbhan",
+      "age": "22",
+      "phone": "3232323",
+      "arrivalMode": "Police / first responder",
+      "notes": null,
+      "problem": "Cancer stage 4",
+      "urgency": "red",
+      "matchedKeyword": null,
+      "arrivalTime": "2026-09-20T07:45:40.721Z",
+      "status": "discharged",
+      "assignedResources": {},
+      "transferredTo": null,
+      "estimatedTreatmentMinutes": 120,
+      "estimatedWaitMinutes": 0,
+      "treatmentEndsAt": null,
+      "ambulanceAvailableAt": null,
+      "careStage": "treatment",
+      "location": "Discharged",
+      "bedNumber": null,
+      "icuNumber": null,
+      "operatingRoomNumber": null,
+      "opdNumber": null,
+      "operationMinutes": null,
+      "operationEndsAt": null,
+      "opdTreatmentMinutes": null,
+      "dischargedAt": "2026-09-20T07:47:11.762Z"
+    },
+    {
+      "id": "mu9iug7wu8ls",
+      "name": "Sayam",
+      "age": "11",
+      "phone": "21222222",
+      "arrivalMode": "Ambulance",
+      "notes": null,
+      "problem": "Aids",
+      "urgency": "yellow",
+      "matchedKeyword": null,
+      "arrivalTime": "2026-09-20T07:55:29.565Z",
+      "status": "discharged",
+      "assignedResources": {},
+      "transferredTo": null,
+      "estimatedTreatmentMinutes": 75,
+      "estimatedWaitMinutes": 0,
+      "treatmentEndsAt": null,
+      "ambulanceAvailableAt": "2026-09-20T07:55:29.565Z",
+      "careStage": "general",
+      "location": "Discharged",
+      "bedNumber": null,
+      "icuNumber": null,
+      "operatingRoomNumber": null,
+      "opdNumber": null,
+      "operationMinutes": null,
+      "operationEndsAt": null,
+      "opdTreatmentMinutes": null,
+      "dischargedAt": "2026-09-20T07:56:35.469Z"
+    }
+  ],
+  "transferLog": [
+    {
+      "patientId": "mu8qi2na22hx",
+      "patientName": "feww",
+      "urgency": "green",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:45:53.577Z"
+    },
+    {
+      "patientId": "mu8qiy9sh4gm",
+      "patientName": "fdnsjlaf",
+      "urgency": "green",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:45:53.577Z"
+    },
+    {
+      "patientId": "mu8qj7wyyjhk",
+      "patientName": "fudfe",
+      "urgency": "green",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:45:53.577Z"
+    },
+    {
+      "patientId": "mu8qgy88vnfy",
+      "patientName": "sulav",
+      "urgency": "yellow",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:45:53.577Z"
+    },
+    {
+      "patientId": "mu8qhd2eatiy",
+      "patientName": "grwnnig",
+      "urgency": "yellow",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:46:13.723Z"
+    },
+    {
+      "patientId": "mu8qhp4tr5tf",
+      "patientName": "grnwjg",
+      "urgency": "yellow",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:46:24.092Z"
+    },
+    {
+      "patientId": "mu8qihky81j7",
+      "patientName": "fndfieiw",
+      "urgency": "yellow",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:46:24.092Z"
+    },
+    {
+      "patientId": "mu8qk6v9tsv5",
+      "patientName": "fnhdsaufs",
+      "urgency": "yellow",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:46:24.092Z"
+    },
+    {
+      "patientId": "mu8qkm6fupx5",
+      "patientName": "fdgrgr",
+      "urgency": "yellow",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:46:24.092Z"
+    },
+    {
+      "patientId": "mu8qno7wu5zu",
+      "patientName": "fdsgsf",
+      "urgency": "red",
+      "transferredTo": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "timestamp": "2026-09-19T18:55:38.964Z"
+    },
+    {
+      "patientId": "mu9e1rrkkqne",
+      "patientName": "Sayam",
+      "urgency": "red",
+      "transferredTo": "Northgate Community Hospital",
+      "distanceKm": 8.1,
+      "transport": "Emergency vehicle",
+      "timestamp": "2026-09-20T05:45:32.330Z"
+    },
+    {
+      "patientId": "mu9ig54i01wl",
+      "patientName": "Sagun",
+      "urgency": "red",
+      "transferredTo": "Lakeside Regional Hospital",
+      "distanceKm": 11.4,
+      "transport": "Emergency vehicle",
+      "timestamp": "2026-09-20T07:46:03.283Z"
+    }
+  ],
+  "nearbyHospitals": [
+    {
+      "name": "St. Mary's General Hospital",
+      "distanceKm": 3.2,
+      "hasICU": true
+    },
+    {
+      "name": "Riverside Medical Center",
+      "distanceKm": 5.7,
+      "hasICU": true
+    },
+    {
+      "name": "Northgate Community Hospital",
+      "distanceKm": 8.1,
+      "hasICU": false
+    },
+    {
+      "name": "Lakeside Regional Hospital",
+      "distanceKm": 11.4,
+      "hasICU": true
+    }
+  ],
+  "ambulanceDispatches": []
+}

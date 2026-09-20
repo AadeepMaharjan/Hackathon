@@ -1,0 +1,2 @@
+import { URGENCY_META } from "./triage";
+export function UrgencySelector({ activeLevel, onSelect }) { return <div className="chip-row">{["red", "yellow", "green"].map((level) => <button key={level} type="button" className={`chip ${level}${activeLevel === level ? " selected" : ""}`} onClick={() => onSelect(level)}><span className="dot" style={{ background: URGENCY_META[level].color }} /><span className="label">{level}</span></button>)}</div>; }
